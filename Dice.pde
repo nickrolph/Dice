@@ -14,6 +14,9 @@ void draw()
     one.roll();
     two.showCube();
     two.roll();
+    stroke(0);
+    text("You rolled a total of "+ (one.DieNumber+two.DieNumber)+"!" , 195 , 100);
+   
    }
 void mousePressed()
 {
