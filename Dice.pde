@@ -4,10 +4,10 @@ void setup()
 {
     size(500,500);
     noLoop();
-    background(255, 0, 180);
 }
 void draw()
 {
+    background(255, 0, 180);
     one = new Die (190,225);
     two = new Die(260,225);
     one.showCube();
